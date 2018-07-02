@@ -1,0 +1,48 @@
+{
+    "name": "@alekseew/me",
+    "version": "0.0.1",
+    "description": "Project to generate a (web) app about me, Michael Alekseew, developer [blog, CV, and more topics...].",
+    "author": "Michael Alekseew",
+    "license": "MIT",
+    "keywords": [
+        "about-me",
+        "blog",
+        "CV",
+        "michael",
+        "alekseew",
+        "developer",
+        "web",
+        "app",
+        "angular",
+        "giflow",
+        "typescript",
+        "angular-material",
+        "angular-cdk",
+        "prettier",
+        "standard-version",
+        "commitizen",
+        "husky",
+        "lottie",
+        "lottie-web",
+        "animations",
+        "server-side-rendering",
+        "ssr",
+        "angular-universal",
+        "firebase"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Mischa1610/alekseew.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Mischa1610/alekseew/issues"
+    },
+    "homepage": "https://github.com/Mischa1610/alekseew#readme",
+    "engines": {
+        "node": ">=8.11.3",
+        "npm": ">=5.6.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    }
+}

@@ -1,5 +1,9 @@
 # alekseew - Michael Alekseew
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 This repository contains a Web App for my blog / CV and topics about me.
 This project should tell a bit about me, Michael Alekseew, as a person and developer.
 

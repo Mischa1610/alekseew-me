@@ -180,3 +180,6 @@ typings/
 ### Sass template
 .sass-cache/
 *.css.map
+
+### GIT config
+.gitmessage.txt

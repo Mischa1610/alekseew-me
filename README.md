@@ -30,3 +30,11 @@ Following are currently inculded:
 This project requires the following dependencies to be installed beforehand:
 * **Node.js**
 * **NPM**
+
+## Dependencies
+
+To install all needed dependencies just run:
+```shell
+npm install
+```
+This also setup's up the git commit message template (and set the wip package to use commitizen).

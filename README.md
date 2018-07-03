@@ -38,3 +38,19 @@ To install all needed dependencies just run:
 npm install
 ```
 This also setup's up the git commit message template (and set the wip package to use commitizen).
+
+## GitFlow
+
+Please use the **GitFlow** branching model and the default names for the branches of SourceTree in this project, more information's can be found here:
+
+* [GitFlow](http://nvie.com/posts/a-successful-git-branching-model/)
+* [SourceTree + GitFlow](https://blog.sourcetreeapp.com/2012/08/01/smart-branching-with-sourcetree-and-git-flow/)
+
+### Branch names and prefixs naming convention (default setting in SourceTree):
+
+* Production branch: **master**
+* Development branch: **develop**
+* Feature branch prefix: **feature/**
+* Release branch prefix: **release/**
+* Hotfix branch prefix: **hotfix/**
+* No Version tag prefix (the Tag names will be for example v0.1.0)

@@ -147,3 +147,10 @@ It does the formating / changes and commits and pushes this changes, with the he
 ### Commit Message Linting
 
 Checks if the git commit message is a conventional git commit message, otherwise it will cancel the commit.
+
+
+## Project Version & Release
+
+The last commit on the release branch should set the project version and generate the Changelog, this should be done with `npm run release`.
+This **set's the project verison**, **generates the changelog** and **commits this changes**.
+More information's can be found under the chapter: **_Conventional Changelog / Commits_**

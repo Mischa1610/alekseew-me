@@ -24,3 +24,9 @@ Following are currently inculded:
 - hosting on FireBase
 - Travis
 - Greenkeeper
+
+## Prerequisites
+
+This project requires the following dependencies to be installed beforehand:
+* **Node.js**
+* **NPM**

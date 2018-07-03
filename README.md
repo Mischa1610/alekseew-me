@@ -133,3 +133,17 @@ The footer should contain any information about **Breaking Changes** and is also
 
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines.
 The rest of the commit message is then used for this.
+
+
+## Commit Hooks
+
+In this repo git hooks are used (setup with **husky**) to check for "clean" source code.
+
+### Prettier Format Check
+
+If Typescript or SCSS files are changed and pushed a commit hook is triggered and the staged files are formatted with prettier.
+It does the formating / changes and commits and pushes this changes, with the help of **pretty-quick**.
+
+### Commit Message Linting
+
+Checks if the git commit message is a conventional git commit message, otherwise it will cancel the commit.

@@ -33,6 +33,15 @@
         "url": "https://github.com/Mischa1610/alekseew/issues"
     },
     "homepage": "https://github.com/Mischa1610/alekseew#readme",
+    "scripts": {
+        "ng": "ng",
+        "start": "ng serve",
+        "start-aot": "npm run start -- --aot",
+        "build": "ng build",
+        "test": "ng test",
+        "lint": "ng lint",
+        "e2e": "ng e2e"
+    },
     "dependencies": {
         "@angular/animations": "^6.0.7",
         "@angular/common": "^6.0.7",

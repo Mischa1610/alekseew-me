@@ -10,6 +10,10 @@
 This repository contains a Web App for my blog / CV and topics about me.
 This project should tell a bit about me, Michael Alekseew, as a person and developer.
 
+The WebApp to this project can be found here: [**alekseew** - WebApp](https://alekseew-b6c4e.firebaseapp.com)
+
+The GitHub Page to this project / repo can be found here: [**alekseew** - GitHub Page](https://mischa1610.github.io/alekseew)
+
 Also I want to try out some libraries, frameworks, plugins, concepts, architectures, ... with this repo.
 Following are currently inculded:
 

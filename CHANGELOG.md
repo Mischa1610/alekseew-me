@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.2.0"></a>
+
+## [0.2.0](https://github.com/Mischa1610/alekseew/compare/v0.1.0...v0.2.0) (2018-07-21)
+
+### Features
+
+-   **fe:** add lottie under-construction animation ([43fe8fc](https://github.com/Mischa1610/alekseew/commit/43fe8fc))
+-   **fe:** add MA logo as asset and show it on start page ([883ddf2](https://github.com/Mischa1610/alekseew/commit/883ddf2))
+-   **fe:** set own MA favicon (michael alekseew logo) ([2cd3ae9](https://github.com/Mischa1610/alekseew/commit/2cd3ae9))
+
 <a name="0.1.0"></a>
 
 ## [0.1.0](https://github.com/Mischa1610/alekseew/compare/v0.0.3...v0.1.0) (2018-07-10)

@@ -1,6 +1,6 @@
 {
     "name": "@alekseew/me",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "description": "Project to generate a (web) app about me, Michael Alekseew, developer [blog, CV, and more topics...].",
     "author": "Michael Alekseew",
     "license": "MIT",
@@ -45,7 +45,7 @@
     "scripts": {
         "firebase": "firebase",
         "preinstall": "test -d .git/hooks || mkdir -v .git/hooks",
-        "postinstall": "npm run prepare-git-commit-template && wip with commitizen && cd webapp && npm install",
+        "postinstall": "npm run prepare-git-commit-template && wip with commitizen && wip silently && cd webapp && npm install",
         "prepare-git-commit-template": "echo '<type:[feat,fix,docs,style,refactor,perf,test,build,chore]>(<scope?>): <subject>\n\n<body?>\n\n<footer?>' > .gitmessage.txt && git config commit.template $PWD/.gitmessage.txt",
         "format-staged": "pretty-quick --staged",
         "format-check": "prettier --config ./.prettierrc --list-different './**/*{.ts,.js,.json,.css,.scss}'",
@@ -54,7 +54,7 @@
         "commit": "git-cz",
         "test": "cd webapp && npm run lint && npm run test && npm run e2e",
         "release": "standard-version",
-        "build": "cd webapp && npm run build -- --prod",
+        "build": "cd webapp && npm run build",
         "git-clean-repo": "git clean -fdx && git submodule foreach git clean -fdx",
         "clean-project": "mv .idea ../ && npm run git-clean-repo && mv ../.idea ./"
     },

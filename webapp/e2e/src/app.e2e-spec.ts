@@ -7,8 +7,7 @@ describe('workspace-project App', () => {
         page = new AppPage();
     });
 
-    it('should display welcome message', () => {
+    it('should load app and navigate to root', () => {
         page.navigateTo();
-        expect(page.getParagraphText()).toEqual('Welcome to @alekseew/me - About me - Michael Alekseew!');
     });
 });

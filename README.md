@@ -7,6 +7,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Mischa1610/alekseew.svg)](https://greenkeeper.io)
+<a href="https://github.com/webmaxru/progressive-web-apps-logo"><img src="https://diekus.com/images/PWA_LOGO_SOURCE.svg" alt="PWA" width="50"></a>
 
 This repository contains a Web App for my blog / CV and topics about me.
 This project should tell a bit about me, Michael Alekseew, as a person and developer.

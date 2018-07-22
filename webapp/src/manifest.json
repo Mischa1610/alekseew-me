@@ -1,0 +1,58 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "@alekseew/me",
+    "short_name": "alekseew",
+    "theme_color": "#1976d2",
+    "background_color": "#fafafa",
+    "display": "fullscreen",
+    "scope": "/",
+    "start_url": "/",
+    "description": "@alekseew/me - about me, Michael Alekseew, developer [blog, CV, and more topics...]",
+    "orientation": "any",
+    "icons": [{
+            "src": "favicon.ico",
+            "sizes": "16x16 32x32 64x64 128x128"
+        },
+        {
+            "src": "assets/icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-128x128.png",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-152x152.png",
+            "sizes": "152x152",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}

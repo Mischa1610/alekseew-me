@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { environment } from '@env/environment';
 
 @Component({
     selector: 'app-root',
@@ -6,7 +7,11 @@ import { Component } from '@angular/core';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    title = '@alekseew/me - About me - Michael Alekseew';
+    public readonly appVersion = environment.appVersion;
+    public readonly envName = environment.envName;
+    public readonly isProduction = environment.production;
+
+    public title = '@alekseew/me - About me - Michael Alekseew';
 
     public lottieConfig: {};
     public animationSpeed = 1;

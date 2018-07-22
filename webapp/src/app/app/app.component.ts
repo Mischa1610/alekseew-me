@@ -1,6 +1,7 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { SwUpdate } from '@angular/service-worker';
 import { environment } from '@env/environment';
+import { unsubscribe } from '@utils/rxjs.helpers';
 import { Subscription } from 'rxjs';
 
 @Component({
@@ -41,9 +42,7 @@ export class AppComponent implements OnInit, OnDestroy {
     }
 
     ngOnDestroy() {
-        if (this.swUpdateAvailableSub && !this.swUpdateAvailableSub.closed) {
-            this.swUpdateAvailableSub.unsubscribe();
-        }
+        unsubscribe(this.swUpdateAvailableSub);
     }
 
     public handleAnimation = (animation: any) => (this.animation = animation);

@@ -29,6 +29,7 @@
         "paths": { // A series of entries which re-map imports to lookup locations relative to the 'baseUrl'.
             "@env/*": ["environments/*"],
             "@app/*": ["app/*"],
+            "@utils/*": ["app/utils/*"],
             "@core/*": ["app/core/*"],
             "@shared/*": ["app/shared/*"]
         }

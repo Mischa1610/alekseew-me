@@ -37,7 +37,7 @@
         "ng": "ng",
         "start": "ng serve",
         "start-aot": "npm run start -- --aot",
-        "start-pwa": "npm run build && http-server -c-1 --proxy http://localhost:4200 ./dist/alekseew-web",
+        "start-pwa": "npm run build && http-server -c-1 ./dist/alekseew-web",
         "build": "ng build --prod",
         "test": "ng test --watch=false",
         "test-serve": "ng test",

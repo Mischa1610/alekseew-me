@@ -1,12 +1,20 @@
 {
+    "dir": "ltr",
+    "lang": "en",
     "name": "@alekseew/me",
     "short_name": "alekseew",
     "theme_color": "#1976d2",
     "background_color": "#fafafa",
-    "display": "standalone",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
+    "description": "@alekseew/me - about me, Michael Alekseew, developer [blog, CV, and more topics...]",
+    "orientation": "any",
     "icons": [{
+            "src": "favicon.ico",
+            "sizes": "16x16 32x32 64x64 128x128"
+        },
+        {
             "src": "assets/icons/icon-72x72.png",
             "sizes": "72x72",
             "type": "image/png"

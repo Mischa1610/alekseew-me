@@ -47,7 +47,7 @@
         "postinstall": "npm run prepare-git-commit-template && wip with commitizen && wip silently && cd webapp && npm install",
         "prepare-git-commit-template": "echo '<type:[feat,fix,docs,style,refactor,perf,test,build,chore]>(<scope?>): <subject>\n\n<body?>\n\n<footer?>' > .gitmessage.txt && git config commit.template $PWD/.gitmessage.txt",
         "format-staged": "pretty-quick --staged",
-        "format-check": "prettier --config ./.prettierrc --list-different './**/*{.ts,.js,.json,.css,.scss}'",
+        "format-check": "prettier --config ./.prettierrc --list-different './**/*{.ts,.js,.json,.css,.scss,.html,.md}'",
         "commit-wip": "wip",
         "commit-squash": "naenae",
         "commit": "git-cz",

@@ -5,7 +5,6 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { CoreModule } from '@core/core.module';
 import { environment } from '@env/environment';
 import { SharedModule } from '@shared/shared.module';
-import { AppApiModule } from './app-api.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app/app.component';
 
@@ -16,7 +15,6 @@ import { AppComponent } from './app/app.component';
         ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production }),
         CoreModule,
         SharedModule,
-        AppApiModule,
         AppRoutingModule,
         BrowserAnimationsModule
     ],

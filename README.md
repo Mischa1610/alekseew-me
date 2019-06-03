@@ -7,6 +7,7 @@
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli)
 [![Greenkeeper badge](https://badges.greenkeeper.io/Mischa1610/alekseew.svg)](https://greenkeeper.io)
+<a href="https://github.com/webmaxru/progressive-web-apps-logo"><img src="https://diekus.com/images/PWA_LOGO_SOURCE.svg" alt="PWA" width="50"></a>
 
 This repository contains a Web App for my blog / CV and topics about me.
 This project should tell a bit about me, Michael Alekseew, as a person and developer.
@@ -36,29 +37,30 @@ Following are currently included:
 | 14. | Hosting and more...                  | [**FireBase**](https://firebase.google.com)                                        |
 | 15. | Continuos Integration (CI)           | [**Travis**](https://travis-ci.org)                                                |
 | 16. | Dependency Monitoring                | [**Greenkeeper**](https://greenkeeper.io)                                          |
+
 _will be continued ..._
 
 ## Table of Contents
 
-- [alekseew - Michael Alekseew](#alekseew---michael-alekseew)
-    - [@alekseew/me](#alekseewme)
-    - [Table of Contents](#table-of-contents)
-    - [Prerequisites](#prerequisites)
-    - [Dependencies](#dependencies)
-    - [GitFlow](#gitflow)
-        - [Branch names and prefix's naming convention (default setting in SourceTree)](#branch-names-and-prefixs-naming-convention-default-setting-in-sourcetree)
-    - [Conventional Changelog / Commits](#conventional-changelog--commits)
-        - [Commit Message Format](#commit-message-format)
-            - [Type](#type)
-            - [Scope](#scope)
-            - [Subject](#subject)
-            - [Body](#body)
-            - [Footer](#footer)
-    - [Commit Hooks](#commit-hooks)
-        - [Prettier Format Check](#prettier-format-check)
-        - [Commit Message Linting](#commit-message-linting)
-    - [Project Version & Release](#project-version--release)
-    - [Continues Integration & Deployment](#continues-integration--deployment)
+-   [alekseew - Michael Alekseew](#alekseew---michael-alekseew)
+    -   [@alekseew/me](#alekseewme)
+    -   [Table of Contents](#table-of-contents)
+    -   [Prerequisites](#prerequisites)
+    -   [Dependencies](#dependencies)
+    -   [GitFlow](#gitflow)
+        -   [Branch names and prefix's naming convention (default setting in SourceTree)](#branch-names-and-prefixs-naming-convention-default-setting-in-sourcetree)
+    -   [Conventional Changelog / Commits](#conventional-changelog--commits)
+        -   [Commit Message Format](#commit-message-format)
+            -   [Type](#type)
+            -   [Scope](#scope)
+            -   [Subject](#subject)
+            -   [Body](#body)
+            -   [Footer](#footer)
+    -   [Commit Hooks](#commit-hooks)
+        -   [Prettier Format Check](#prettier-format-check)
+        -   [Commit Message Linting](#commit-message-linting)
+    -   [Project Version & Release](#project-version--release)
+    -   [Continues Integration & Deployment](#continues-integration--deployment)
 
 ## Prerequisites
 

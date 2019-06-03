@@ -1,6 +1,6 @@
 {
     "name": "@alekseew/me",
-    "version": "0.2.0",
+    "version": "0.3.0",
     "description": "Project to generate a (web) app about me, Michael Alekseew, developer [blog, CV, and more topics...].",
     "author": "Michael Alekseew",
     "license": "MIT",
@@ -44,17 +44,18 @@
     },
     "scripts": {
         "firebase": "firebase",
-        "preinstall": "test -d .git/hooks || mkdir -v .git/hooks",
         "postinstall": "npm run prepare-git-commit-template && wip with commitizen && wip silently && cd webapp && npm install",
         "prepare-git-commit-template": "echo '<type:[feat,fix,docs,style,refactor,perf,test,build,chore]>(<scope?>): <subject>\n\n<body?>\n\n<footer?>' > .gitmessage.txt && git config commit.template $PWD/.gitmessage.txt",
         "format-staged": "pretty-quick --staged",
-        "format-check": "prettier --config ./.prettierrc --list-different './**/*{.ts,.js,.json,.css,.scss}'",
+        "format-check": "prettier --config ./.prettierrc --list-different './**/*{.ts,.js,.json,.css,.scss,.html,.md}'",
         "commit-wip": "wip",
         "commit-squash": "naenae",
         "commit": "git-cz",
         "test": "cd webapp && npm run lint && npm run test && npm run e2e",
         "release": "standard-version",
         "build": "cd webapp && npm run build",
+        "update-dependencies": "npx npm-check -u && cd webapp && npx npm-check -u",
+        "show-changelog": "npx changelog",
         "git-clean-repo": "git clean -fdx && git submodule foreach git clean -fdx",
         "clean-project": "mv .idea ../ && npm run git-clean-repo && mv ../.idea ./"
     },
@@ -82,9 +83,9 @@
         "cz-conventional-changelog": "^2.1.0",
         "firebase-tools": "^6.10.0",
         "husky": "^2.3.0",
-        "npm-run-all": "^4.1.3",
-        "prettier": "^1.13.7",
-        "pretty-quick": "^1.6.0",
+        "npm-run-all": "^4.1.5",
+        "prettier": "^1.17.1",
+        "pretty-quick": "^1.11.0",
         "standard-version": "^6.0.1",
         "wip": "^1.3.0"
     }

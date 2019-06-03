@@ -1,6 +1,35 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [0.3.0](https://github.com/Mischa1610/alekseew/compare/v0.2.0...v0.3.0) (2019-06-03)
+
+### Bug Fixes
+
+-   **test:** fix app component test, add disabled ServiceWorkerModule ([3680b54](https://github.com/Mischa1610/alekseew/commit/3680b54))
+
+### Build System
+
+-   **all:** add update-dependencies script (with npm-check) ([1d8f27c](https://github.com/Mischa1610/alekseew/commit/1d8f27c))
+-   **all:** first iteration of dependency updates (includes Angular8) ([2e74418](https://github.com/Mischa1610/alekseew/commit/2e74418))
+-   **all:** second iteration of dependency updates (webapp) ([f0fbb66](https://github.com/Mischa1610/alekseew/commit/f0fbb66))
+-   **app:** add Angular Material and set it up ([da8d6eb](https://github.com/Mischa1610/alekseew/commit/da8d6eb))
+-   **fe:** add npm script to run pwa (localhost:8080) ([fed214b](https://github.com/Mischa1610/alekseew/commit/fed214b))
+-   **fe:** add proxy for localhost:4200 for start-pwa ([4578d88](https://github.com/Mischa1610/alekseew/commit/4578d88))
+-   **fe:** add pwa and service-worker dependencies ([c4d888d](https://github.com/Mischa1610/alekseew/commit/c4d888d))
+-   **fe:** remove unused proxy for start-pwa ([3339cb6](https://github.com/Mischa1610/alekseew/commit/3339cb6))
+-   **fe:** update webapp dependencies to current state ([fa57834](https://github.com/Mischa1610/alekseew/commit/fa57834))
+-   **root:** update all dependencies in root to current state ([13d1bb2](https://github.com/Mischa1610/alekseew/commit/13d1bb2))
+
+### Features
+
+-   **app:** add Angular Material Theme to style.scss ([f47ae68](https://github.com/Mischa1610/alekseew/commit/f47ae68))
+-   **app:** remove not needed API Modules ([6adca8b](https://github.com/Mischa1610/alekseew/commit/6adca8b))
+-   **fe:** add top border to app-footer ([7178360](https://github.com/Mischa1610/alekseew/commit/7178360))
+-   **fe:** ask user to reload if new app version exists ([0bdc2bb](https://github.com/Mischa1610/alekseew/commit/0bdc2bb))
+-   **fe:** imporve manifest info's settings ([d4c77d6](https://github.com/Mischa1610/alekseew/commit/d4c77d6))
+-   **fe:** initial setup for pwa (service-worker) ([8872ac4](https://github.com/Mischa1610/alekseew/commit/8872ac4))
+-   **fe:** show app version in app-footer (add base-env) ([1bd7679](https://github.com/Mischa1610/alekseew/commit/1bd7679))
 
 <a name="0.2.0"></a>
 

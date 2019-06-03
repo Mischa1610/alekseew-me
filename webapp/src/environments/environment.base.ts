@@ -4,7 +4,7 @@
  *****************************************************************/
 
 export const environmentBase = {
-    appVersion: '0.2.0',
+    appVersion: '0.3.0',
     apiUrl: '/api/v1/',
     envName: 'BASE',
     production: false,

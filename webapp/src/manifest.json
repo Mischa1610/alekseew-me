@@ -10,7 +10,8 @@
     "start_url": "/",
     "description": "@alekseew/me - about me, Michael Alekseew, developer [blog, CV, and more topics...]",
     "orientation": "any",
-    "icons": [{
+    "icons": [
+        {
             "src": "favicon.ico",
             "sizes": "16x16 32x32 64x64 128x128"
         },

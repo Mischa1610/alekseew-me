@@ -37,29 +37,30 @@ Following are currently included:
 | 14. | Hosting and more...                  | [**FireBase**](https://firebase.google.com)                                        |
 | 15. | Continuos Integration (CI)           | [**Travis**](https://travis-ci.org)                                                |
 | 16. | Dependency Monitoring                | [**Greenkeeper**](https://greenkeeper.io)                                          |
+
 _will be continued ..._
 
 ## Table of Contents
 
-- [alekseew - Michael Alekseew](#alekseew---michael-alekseew)
-    - [@alekseew/me](#alekseewme)
-    - [Table of Contents](#table-of-contents)
-    - [Prerequisites](#prerequisites)
-    - [Dependencies](#dependencies)
-    - [GitFlow](#gitflow)
-        - [Branch names and prefix's naming convention (default setting in SourceTree)](#branch-names-and-prefixs-naming-convention-default-setting-in-sourcetree)
-    - [Conventional Changelog / Commits](#conventional-changelog--commits)
-        - [Commit Message Format](#commit-message-format)
-            - [Type](#type)
-            - [Scope](#scope)
-            - [Subject](#subject)
-            - [Body](#body)
-            - [Footer](#footer)
-    - [Commit Hooks](#commit-hooks)
-        - [Prettier Format Check](#prettier-format-check)
-        - [Commit Message Linting](#commit-message-linting)
-    - [Project Version & Release](#project-version--release)
-    - [Continues Integration & Deployment](#continues-integration--deployment)
+-   [alekseew - Michael Alekseew](#alekseew---michael-alekseew)
+    -   [@alekseew/me](#alekseewme)
+    -   [Table of Contents](#table-of-contents)
+    -   [Prerequisites](#prerequisites)
+    -   [Dependencies](#dependencies)
+    -   [GitFlow](#gitflow)
+        -   [Branch names and prefix's naming convention (default setting in SourceTree)](#branch-names-and-prefixs-naming-convention-default-setting-in-sourcetree)
+    -   [Conventional Changelog / Commits](#conventional-changelog--commits)
+        -   [Commit Message Format](#commit-message-format)
+            -   [Type](#type)
+            -   [Scope](#scope)
+            -   [Subject](#subject)
+            -   [Body](#body)
+            -   [Footer](#footer)
+    -   [Commit Hooks](#commit-hooks)
+        -   [Prettier Format Check](#prettier-format-check)
+        -   [Commit Message Linting](#commit-message-linting)
+    -   [Project Version & Release](#project-version--release)
+    -   [Continues Integration & Deployment](#continues-integration--deployment)
 
 ## Prerequisites
 
